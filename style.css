@@ -11,3 +11,23 @@
     background-position: center;
     background-size: cover;
 }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7%;
+}
+.logo{ /*here we have the perfect size for logo! */
+    width: 140px;
+    cursor: pointer;
+}
+
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+}
